@@ -1,4 +1,4 @@
-#languege: pt
+#language: pt
 
 Funcionalidade: Login
 
@@ -7,4 +7,4 @@ Funcionalidade: Login
         Quando submeto minhas credenciais
             | email | eu@papito.io |
             | senha | qaninja      |
-        Entao devo ver a notificacao: "Show! Suas credencias são válidas."
+        Então devo ver a notificacao: "Show! Suas credenciais são validas."
