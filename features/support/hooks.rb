@@ -5,6 +5,7 @@ Before do
 
   @nav = Navigator.new
   @login_screen = Login.new
+  @avengers_screen = Mensagens.new
 end
 
 After do |scenario|
