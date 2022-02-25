@@ -2,6 +2,7 @@
 
 Funcionalidade: Login
 
+    @login
     Cenario: Login com sucesso
         Dado que acesso a tela de login
         Quando submeto minhas credenciais
