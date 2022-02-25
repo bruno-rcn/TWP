@@ -1,0 +1,122 @@
+baixar IDE - visual studio code
+
+extencoes:
+ruby
+debug ruby
+
+---------------------------------------
+
+baixar o CMder
+adicionar a variavel de ambiente do sistema no path: 
+C:\Cmder\cmder\vendor\git-for-windows\bin
+C:\Cmder\cmder\vendor\git-for-windows\usr\bin
+
+----------------------------------------
+
+baixar o ruby
+site do ruby: https://www.ruby-lang.org/pt/
+
+documentacao: https://www.ruby-lang.org/pt/documentation/
+instalador com devkit: https://rubyinstaller.org/downloads/
+
+sequencia de instalacao: 3, enter, enter
+
+ruby -v
+
+------------------------------------------
+
+baixar e instalar o java jdk 8
+link https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html
+
+var de ambiente do sistema:
+JAVA_HOME
+C:\Program Files\Java\jdk1.8.0_311
+
+JRE_HOME
+C:\Program Files\Java\jre1.8.0_311
+
+
+no path do sistema:
+%JAVA_HOME%\bin
+%JAVA_HOME%\lib\tools.jar
+%JRE_HOME%\bin
+
+------------------------------------------
+
+download do android studio
+https://developer.android.com/studio
+
+variavel de ambiente do sistema
+ANDROID_HOME
+C:\Users\bruno\AppData\Local\Android\Sdk
+
+PATH:
+%ANDROID_HOME%\platform-tools
+%ANDROID_HOME%\tools
+%ANDROID_HOME%\tools\lib
+%ANDROID_HOME%\tools\bin
+
+-------------------------------------------------
+
+downaload appium e nodejs
+
+
+nodejs: https://nodejs.org/en/download/
+	
+no prompt:
+npm install appium -g
+
+npm install appium-doctor -g
+
+appium (para subir o servidor)
+
+----
+
+instalar appium desktop
+appium: https://appium.io/downloads.html
+
+site do appium: https://appium.io/
+
+com o dispositivo aberto
+adb devices na hora de gerar as capabilities
+
+------------------------------
+
+para iniciar o device por linha de comando:
+
+cd %android_home%
+cd emulator
+emulator @nome_do_device
+
+para iniciar ferramenta para mapear os elementos
+
+cd %android_home%
+cd emulator
+uiautomatorviewer
+
+1 - abrir o diretorio da pasta em um terminal e rodar bundle install
+2 - abrir o device e iniciar o appium
+
+caso apareça a msg: Unable to load the EventMachine C extension; To use the pure-ruby reactor, require 'em/pure_ruby' - rodar no terminal:
+gem uninstall eventmachine
+gem install eventmachine --platform ruby 
+
+documentacao allure: https://docs.qameta.io/allure/
+
+
+rodar a feature: cucumber features\specs\inputs.feature
+rodar a tag: cucumber -t @tag
+
+
+
+-------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+

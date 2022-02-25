@@ -11,5 +11,5 @@ end
   
 Então('devo ver a notificacao: {string}') do |string|
     log(get_source) # imprime o xml da pagina no console
-    expect(@login_screen.toast.text).to eql string
+    expect(@toaster.toast.text).to eql string
 end
